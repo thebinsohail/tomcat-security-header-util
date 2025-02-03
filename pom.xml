@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.thebinsohail</groupId>
+  <groupId>thebinsohail</groupId>
   <artifactId>security-header-util</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
@@ -22,6 +22,14 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>thebinsohail Apache Tomcat Security Headers Utility</name>
+      <url>https://maven.pkg.github.com/thebinsohail/tomcat-security-header-util</url>
+    </repository>
+  </distributionManagement>
+
 </project>
