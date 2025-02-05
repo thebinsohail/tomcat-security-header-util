@@ -18,6 +18,14 @@ The `GlobalResponseHeaderFilter` is a custom Java Servlet filter designed to enf
 3. **Cleanup (`destroy`):**  
    Any necessary cleanup logic can be implemented here. Currently, this filter doesn’t require additional cleanup steps.
 
+### You can start using this utility by adding the Jar file to your Tomcat Server 
+
+## Steps to Follow 
+1. Download the Jar File [Download Here](https://github.com/thebinsohail/tomcat-security-header-util/releases/download/1.0/thebinsohail-security-header-util-1.0.jar).
+2. Copy the Jar file to the `apache-tomcat > lib > thebinsohail-security-header-util-1.0.jar` directory.
+3. Then, you can configure the tomcat by configuring the `web.xml` which is mentioned below:
+   
+
 ## Example Configuration in `web.xml` ⚙️
 
 You can configure the filter in your `web.xml` like so:
